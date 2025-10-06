@@ -2,13 +2,6 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-room.jpg";
 
 const Hero = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById("contato");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section
       id="home"
@@ -31,11 +24,17 @@ const Hero = () => {
             Design exclusivo, materiais nobres e acabamento impecável para sua residência ou escritório
           </p>
           <Button
-            onClick={scrollToContact}
             size="lg"
             className="bg-accent hover:bg-accent/90 text-foreground font-semibold px-8 py-6 text-lg rounded-md shadow-lg hover:shadow-xl transition-all"
+            asChild
           >
-            Solicitar Orçamento
+            <a
+              href="https://wa.me/5547999090328"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Solicitar Orçamento
+            </a>
           </Button>
         </div>
       </div>
