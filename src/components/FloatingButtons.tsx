@@ -10,7 +10,7 @@ const FloatingButtons = () => {
         asChild
       >
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/houseart_cortinas/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -25,7 +25,7 @@ const FloatingButtons = () => {
         asChild
       >
         <a
-          href="https://wa.me/5547999999999"
+          href="https://wa.me/5547999090328"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
